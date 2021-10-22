@@ -1,0 +1,9 @@
+server:
+  port: 8072
+
+spring:
+  application:
+    name: api-gateway-server
+  cloud:
+    config:
+     uri: http://host.docker.internal:8071
